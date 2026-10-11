@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" x2="880" y1="0" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#33283B"/><stop offset="1" stop-color="#202C43"/></linearGradient>
+    <linearGradient id="screen" x1="530" x2="730" y1="105" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#F7F2E9"/><stop offset="1" stop-color="#E7E1F2"/></linearGradient>
+    <linearGradient id="meal" x1="184" x2="399" y1="187" y2="362" gradientUnits="userSpaceOnUse"><stop stop-color="#EEA96D"/><stop offset="1" stop-color="#D96E69"/></linearGradient>
+  </defs>
+  <rect width="960" height="540" rx="30" fill="url(#bg)"/>
+  <circle cx="240" cy="245" r="175" fill="#F5A56F" fill-opacity=".08"/>
+  <circle cx="716" cy="270" r="197" fill="#A99BFF" fill-opacity=".09"/>
+  <path d="M91 408h780" stroke="#E2C9A9" stroke-opacity=".55" stroke-width="8" stroke-linecap="round"/>
+  <path d="m168 416-18 93m642-93 18 93" stroke="#D6B992" stroke-linecap="round" stroke-width="9"/>
+  <ellipse cx="292" cy="301" rx="159" ry="82" fill="#D7C5AA"/>
+  <ellipse cx="292" cy="288" rx="159" ry="82" fill="#F2E8D8" stroke="#FFF8EE" stroke-width="4"/>
+  <ellipse cx="292" cy="288" rx="103" ry="54" fill="#F7F3EA"/>
+  <circle cx="288" cy="280" r="47" fill="url(#meal)"/>
+  <path d="M250 280c22-27 55-25 77 0-20 29-57 30-77 0Z" fill="#76A56E"/>
+  <circle cx="268" cy="266" r="8" fill="#F6D783"/><circle cx="310" cy="299" r="7" fill="#F5D788"/><circle cx="320" cy="268" r="6" fill="#C75E62"/>
+  <path d="M173 219c7-17 19-26 35-28m-22 42c10-19 24-28 42-27" stroke="#72A67B" stroke-linecap="round" stroke-width="5"/>
+  <rect x="581" y="74" width="214" height="357" rx="31" fill="#111827" stroke="#C4B5FD" stroke-opacity=".72" stroke-width="2"/>
+  <rect x="594" y="91" width="188" height="324" rx="22" fill="url(#screen)"/>
+  <rect x="655" y="101" width="67" height="9" rx="4.5" fill="#111827"/>
+  <text x="611" y="143" fill="#25233B" font-family="Arial,sans-serif" font-size="15" font-weight="700">TODAY'S MENU</text>
+  <rect x="610" y="158" width="155" height="84" rx="12" fill="#E8D9CA"/>
+  <circle cx="650" cy="200" r="27" fill="#E59A66"/><circle cx="650" cy="200" r="17" fill="#7BA77A"/><circle cx="654" cy="196" r="5" fill="#F6D985"/>
+  <rect x="690" y="182" width="61" height="7" rx="3.5" fill="#373247" fill-opacity=".8"/>
+  <rect x="690" y="198" width="45" height="5" rx="2.5" fill="#5C5667" fill-opacity=".55"/>
+  <rect x="690" y="215" width="36" height="6" rx="3" fill="#8668BC"/>
+  <rect x="610" y="252" width="155" height="62" rx="12" fill="#E8D9CA"/>
+  <circle cx="637" cy="283" r="19" fill="#DD866E"/><path d="M626 284c8-12 15-11 23 0-6 13-17 13-23 0Z" fill="#7BA77A"/>
+  <rect x="668" y="273" width="82" height="6" rx="3" fill="#373247" fill-opacity=".72"/><rect x="668" y="289" width="52" height="5" rx="2.5" fill="#5C5667" fill-opacity=".5"/>
+  <rect x="610" y="323" width="155" height="42" rx="12" fill="#7566D9"/>
+  <text x="653" y="349" fill="#fff" font-family="Arial,sans-serif" font-size="12" font-weight="700">VIEW ORDER</text>
+  <rect x="645" y="381" width="86" height="6" rx="3" fill="#6A6675" fill-opacity=".26"/>
+  <rect x="459" y="287" width="75" height="75" rx="11" fill="#FFF" transform="rotate(-9 459 287)"/>
+  <g transform="rotate(-9 497 325)" fill="#1D2230">
+    <rect x="474" y="300" width="15" height="15" rx="2"/><rect x="494" y="300" width="6" height="6"/><rect x="503" y="300" width="15" height="15" rx="2"/>
+    <rect x="474" y="319" width="6" height="6"/><rect x="484" y="319" width="14" height="6"/><rect x="503" y="319" width="6" height="6"/>
+    <rect x="513" y="319" width="5" height="6"/><rect x="474" y="329" width="15" height="15" rx="2"/><rect x="494" y="329" width="6" height="15"/>
+    <rect x="503" y="329" width="15" height="15" rx="2"/>
+  </g>
+  <path d="m454 270-13-22m82-12 14-22" stroke="#F2D5AD" stroke-linecap="round" stroke-width="4"/>
+</svg>

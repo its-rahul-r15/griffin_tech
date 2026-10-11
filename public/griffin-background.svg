@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1000" fill="none" viewBox="0 0 1800 1000">
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 560 -920 0 900 40)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7567FF" stop-opacity=".24"/>
+      <stop offset=".48" stop-color="#3D8BFF" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#111827" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="210" x2="1590" y1="100" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9A8CFF" stop-opacity=".22"/>
+      <stop offset=".52" stop-color="#69B8FF" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#9A8CFF" stop-opacity=".03"/>
+    </linearGradient>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#A5B4FC" fill-opacity=".22"/>
+    </pattern>
+    <mask id="fade">
+      <linearGradient id="maskGradient" x1="900" x2="900" y1="0" y2="900" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#fff"/>
+        <stop offset=".56" stop-color="#fff" stop-opacity=".72"/>
+        <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+      </linearGradient>
+      <path fill="url(#maskGradient)" d="M0 0h1800v1000H0z"/>
+    </mask>
+  </defs>
+  <g mask="url(#fade)">
+    <path fill="url(#glow)" d="M0 0h1800v1000H0z"/>
+    <path fill="url(#dots)" opacity=".44" d="M0 0h1800v860H0z" mask="url(#fade)"/>
+    <g stroke="url(#line)" stroke-width="1.2">
+      <path d="M900 90 550 310v170l-230 145v155"/>
+      <path d="m900 90 350 220v170l230 145v155"/>
+      <path d="M900 90v205m0 0L690 425v142l-165 104v127m375-503 210 130v142l165 104v127"/>
+      <path d="M900 295v245m-210-115H520m580 0H900"/>
+      <path d="M690 425h420m-585 246h750"/>
+      <path d="M320 625h145m870 0h145M525 671h-92m842 0h-92"/>
+      <path d="m690 425-110-70m530 70 110-70M690 567l-85 57m505-57 85 57"/>
+    </g>
+    <g fill="#A5B4FC" fill-opacity=".5">
+      <circle cx="900" cy="90" r="3"/><circle cx="900" cy="295" r="2.5"/>
+      <circle cx="690" cy="425" r="2.5"/><circle cx="1110" cy="425" r="2.5"/>
+      <circle cx="690" cy="567" r="2"/><circle cx="1110" cy="567" r="2"/>
+      <circle cx="525" cy="671" r="2"/><circle cx="1275" cy="671" r="2"/>
+      <circle cx="320" cy="780" r="2"/><circle cx="1480" cy="780" r="2"/>
+    </g>
+    <circle cx="900" cy="435" r="150" stroke="#A5B4FC" stroke-opacity=".05"/>
+    <circle cx="900" cy="435" r="220" stroke="#A5B4FC" stroke-opacity=".04"/>
+  </g>
+</svg>
